@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+  mat-sidenav-container{
+      height: calc(100vh - 64px);
+      background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(176,229,208,1) 42%, rgba(92,202,238,0.41) 93.6% );
+      overflow-y: scroll; /* Ensure vertical scrolling */
+      overflow-x: hidden; /* Hide horizontal scrollbar */
+      font-family: "Poppins", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+  }
+
+  mat-sidenav{
+   border-radius: 0px;
+   overflow: hidden;
+   font-family: "Poppins", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+  }
+  mat-toolbar {
+    position: relative;
+    z-index: 5;
+  }
